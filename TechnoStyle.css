@@ -1,0 +1,133 @@
+header {
+	background-color: #191919;
+	color: #fff;
+	padding: 0px;
+}
+
+.container {
+	max-width: 1505px;
+	padding: 2px;
+	margin: auto;
+}
+
+h1 {
+	margin: 0px;
+	text-align: left;
+	font-size: 45px;
+	font-family: Trebuchet MS;
+}
+
+body {
+	margin: auto;
+	background-color: #f4f4f4;
+}
+
+nav ul {
+	margin: 0px;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	padding: 7px;
+}
+
+nav a {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #b4b6b7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+.search-bar {
+	width: 45%;
+	padding: 12px;
+	border: 1.5px solid #b4b6b7;
+	border-radius: 20px;
+	margin-left: 450px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: no;
+}
+
+.card {
+	width: 30%;
+	margin: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px #4f4f4f;
+	overflow: hidden;
+}
+
+.card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.text {
+	padding: 18px;
+	font-family: Papyrus;
+	font-weight: 200;
+	justify-content: center;
+}
+
+.about {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #e4e4e4;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: Papyrus;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.about h2 {
+	font-size: 30px;
+	font-family: Verdana;
+	margin-bottom: 10px;
+}
+
+.find {
+	margin: 0px;
+}
+
+.find ul {
+	margin: 0px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.find li {
+	padding: 7px;
+}
+
+.find a {
+	font-family: Verdana;
+	font-size: 18px;
+	color: #b4b6b7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.find a:hover {
+	color: #fff;
+}
+
+footer {
+	background-color: #191919;
+	color: #fff;
+	padding: 0px;
+}
